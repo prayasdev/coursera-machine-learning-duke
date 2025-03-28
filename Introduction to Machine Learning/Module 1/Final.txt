@@ -1,0 +1,65 @@
+
+---
+
+Week 1 Comprehensive – Graded Assignment
+
+Q1. Which of the following are necessary for supervised machine learning?
+✅ Labeled training data
+✅ A model
+✅ Learning from data
+❌ Human to teach the machine
+
+Q2. What decision boundary can logistic regression provide?
+✅ Linear
+❌ Smooth curves
+❌ Jagged edges
+❌ Arbitrarily complex functions
+
+Q3. What is the primary advantage of using multiple filters?
+✅ This allows the model to look for subtypes of the classification.
+❌ This requires less compute power.
+❌ This is simpler to implement.
+❌ More complexity is always better.
+
+Q4. Which one of the following best describes transfer learning in the context of document analysis?
+❌ All parameters of the model are transferable across all people and documents.
+✅ Parameters at the bottom of the model are transferable across all people and documents, while the parameters at the top are different between individuals.
+❌ Parameters at the top of the model are transferable across all people and documents, while the parameters at the bottom are different between individuals.
+❌ All parameters of the model are different between individuals.
+
+Q5. Given the following image of data classifications, which of the following models would you choose?
+(Without the image, this depends on the complexity of the classification. If it's linearly separable, choose Logistic Regression. Otherwise, choose Multilayer Perceptron.)
+✅✅ Logistic regression (if linearly separable)
+✅ Multilayer perceptron (if complex patterns are present)
+
+Q6. What new feature did neural networks acquire in 2010?
+✅ A new name: Deep Learning
+❌ A new computational platform: the GPU
+❌ A new operation: convolution
+❌ A new application: image search
+
+Q7. Which of the following is convolved with layer 2 features, or sub-motifs?
+✅ Layer 1 feature map
+❌ Layer 2 feature map
+❌ Layer 3 feature map
+
+Q8. Which of the following gives the best conceptual meaning of convolution?
+✅ Shifting a filter to every location in an image.
+❌ Selecting an atomic element from an image.
+❌ Stacking a collection of feature maps.
+❌ Surveying a feature map for high-level motif.
+
+Q9. What does transfer learning mean in the context of medical imaging?
+✅ Weights of convolutional layers learned from ImageNet transfer to medical images, so we only need to learn new parameters at the top of the network.
+❌ Just as assigning categories to images in ImageNet required millions of images, so too does analyzing medical images require millions of labeled medical images.
+❌ Once the convolutional layers are learned from labeled medical images, the top layers can be inferred from the parameters found with data from ImageNet.
+❌ Sufficient labeled radiological images can be used to learn all of the model parameters, so they can be used for ophthalmological or dermatological images.
+
+Q10. What is the primary advantage of having a deep architecture?
+✅ The model shares knowledge between motifs through their shared substructures.
+❌ The parameters of a deep architecture are less expensive to compute.
+❌ A model can learn each top-level motif in isolation.
+❌ There is a higher probability that each motif is used in the classifier.
+
+
+---
