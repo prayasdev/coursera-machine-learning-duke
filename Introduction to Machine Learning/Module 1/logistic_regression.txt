@@ -1,1 +1,33 @@
-.
+Coursera – Logistic Regression Graded Assignment
+
+Assignment Details:
+
+Submitted: March 22, 10:34 AM PDT
+
+Attempts: Unlimited
+
+Grade: 100% (Passing score: 80%, highest score retained)
+
+
+Practice Assignment – 8 min
+
+Questions & Answers
+
+1. What kind of outcomes does logistic regression predict?
+✅ Binary (true/false) outcomes
+❌ Categorical (multiple categories) outcomes
+❌ Real-valued outcomes
+❌ Ordinal (1, 2, 3, 4, ...) outcomes
+(1 point)
+
+2. What does the sigmoid function do?
+✅ It converts a real-valued number to a probability of a positive outcome.
+❌ It’s an impenetrable math function that no one understands.
+❌ It converts a real-valued number to a binary value.
+❌ It maps a value to a number between negative infinity and infinity.
+(1 point)
+
+3. Can logistic regression draw an appropriate decision boundary between the classes of this data?
+✅ Yes
+❌ No
+(1 point)
