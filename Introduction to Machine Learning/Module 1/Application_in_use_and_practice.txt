@@ -1,0 +1,26 @@
+
+---
+
+Applications In Use and Practice – Graded Assignment
+
+Q1. In the experiment where light was shined on mammalian retinas, what were found to be (almost exactly) the fundamental shapes that excited exactly one neuron?
+✅ Layer 1 filters that CNN learns
+❌ Layer 3 filters that CNN learns
+❌ Atomic filters from the toy image example
+❌ Layer 2 filters that CNN learns
+
+Q2. In the example network in this lesson, which layer of filter might have the shape of an eye in a CNN trained on real image data?
+❌ Layer 1 filter
+❌ Layer 3 filter
+✅ Layer 2 filter
+
+Q3. Which of the following are examples of deep CNNs given in the videos?
+✅ Captioning images
+✅ Playing Go
+❌ Flying planes
+✅ Digit recognition
+✅ Classifying images
+
+
+---
+
