@@ -1,0 +1,29 @@
+
+---
+
+History of Neural Networks – Graded Assignment
+
+Q1. When was the multilayer perceptron introduced?
+❌ 1940
+✅ 1960
+❌ 1980
+❌ 2000
+
+Q2. Why did neural networks not perform well "in the wild" in the early 1990s?
+✅ Insufficient training data
+❌ Political opposition
+❌ Insufficient compute power
+❌ Models were being evaluated incorrectly
+❌ Convolutional neural networks had not been introduced
+
+Q3. Which of the following contributed to neural networks outperforming humans in the task of image analysis? (Choose all that are correct.)
+✅ Large set of training data
+✅ GPU computational platform
+✅ New, deeper network
+❌ General artificial intelligence
+❌ Increased understanding of the human visual system
+
+
+---
+
+ 
