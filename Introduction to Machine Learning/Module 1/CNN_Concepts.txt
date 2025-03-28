@@ -1,0 +1,25 @@
+
+---
+
+CNN Concepts – Graded Assignment
+
+Q1. Which one of the following models, when used for image classification, can exceed the performance of humans?
+✅ Convolutional neural network
+❌ Multilayer perceptron
+❌ Logistic regression
+
+Q2. Which of the following best describes the hierarchical structure of images, listed from most complex to simplest?
+✅ High-level motifs, sub-motifs, and atomic elements
+❌ Sub-motifs, high-level motifs, and atomic elements
+❌ High-level motifs, atomic elements, and sub-motifs
+❌ Atomic elements, sub-motifs, and high-level motifs
+
+Q3. In the CNN explained in this lesson, which of the following allows a classification decision to be made?
+❌ Layer 2 feature map
+✅ Layer 3 feature map
+❌ High-level motifs
+❌ Sub-motifs
+
+
+---
+
