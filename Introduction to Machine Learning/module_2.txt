@@ -1,0 +1,132 @@
+Lesson One - Graded Assignment
+
+Q1. What is the purpose of a loss function?
+✅ To define a penalty for poor predictions
+❌ To throw out outliers in the training data
+❌ To figure out how to remove loser networks.
+❌ To determine which points are best predicted.
+
+Q2. How is the loss function defined?
+✅ Negative log-likelihood
+❌ Positive log-likelihood
+❌ Sigmoid function
+❌ Convolutions
+
+Q3. In the polynomial fitting example, which one of the following is an example of overfitting?
+✅ Eighth order polynomial
+❌ First order polynomial
+❌ Third order polynomial
+
+Q4. What is the “gold standard” validation strategy?
+✅ Try on new real-world data
+❌ Repeat on training data
+❌ Mathematical proof of accuracy
+❌ Compare two different models
+
+Q5. When existing data is used to validate performance, into which of the following groups is data split?
+✅ Training set
+✅ Validation set
+✅ Test set
+❌ Optimization set
+❌ Learning set
+❌ Prediction set
+
+
+
+Lesson 2 - Graded Assignment
+
+Q1. Which one of the following best describes one iteration of gradient descent?
+✅ Find the slope at the current point. Step in the direction that is “downhill.”
+❌ Find the slope at the current point. Step in the direction that is “uphill.”
+❌ Find the slope at the previous point. Step in the direction that is “downhill.”
+❌ Find the slope at the previous point. Step in the direction that is “uphill.”
+
+Q2. What is the name for multidimensional slope?
+✅ Gradient
+❌ Learning
+❌ Loss function
+❌ Laplacian
+
+Q3. What is the primary difference between stochastic gradient descent and gradient descent?
+✅ Stochastic gradient descent estimates the gradient by choosing a data point at random.
+❌ Stochastic gradient descent makes the slope of the loss function steeper, for faster results.
+❌ Stochastic gradient descent chooses the probability of an associated label at random.
+❌ Stochastic gradient descent associates a data point from the validation set with one from the test set.
+
+Q4. What is a minibatch?
+✅ Running a few data examples, rather than all of the data.
+❌ A loss function with only one global minimum.
+❌ Selecting a few examples from each of the training set, validation set, and test set.
+❌ The fewest updates necessary to find a solution.
+
+Q5. What is early stopping?
+✅ During optimization loop, check the validation loss, and stop when it stops improving.
+❌ After optimization loop, assess performance with test set, and stop if it meets specifications.
+❌ During optimization loop, optimize to convergence on training goal, and stop when it is met.
+❌ After optimization loop, assess performance of training goal, and stop if it meets specifications.
+
+
+
+Week 2 Comprehensive - Graded Assignment
+
+Q1. What does the equation for the loss function do conceptually?
+✅ Penalize overconfidence
+❌ Reward indecision
+❌ Mathematically define network outputs
+❌ Ignore historical statistical developments
+
+Q2. What is overfitting?
+✅ Model complexity fits too well to training data and will not generalize in the real world.
+❌ Model complexity is not enough to capture the nuance of the data and will underperform in the real world.
+❌ Model complexity is perfectly matched to the data.
+❌ Overfitting refers to the fact that more complexity is always better, which is why deep learning works.
+
+Q3. Why should the test set only be used once?
+✅ More than one use can lead to bias.
+❌ More than one use can lead to overfitting.
+❌ The model cannot learn anything new from subsequent uses.
+❌ It is expensive to use more than once.
+
+Q4. Which two of the following describe the purpose of a validation set?
+✅ To estimate the performance of a model.
+✅ To pick the best-performing model.
+❌ To test the performance in lieu of real-world data.
+❌ To learn the model parameters.
+
+Q5. How do we learn our network?
+✅ Gradient descent
+❌ Downhill skiing
+❌ Monte Carlo simulation
+❌ Analytically determine global minimum
+
+Q6. What technique is used to minimize loss for a large data set?
+✅ Stochastic gradient descent
+❌ Gradient descent
+❌ Taylor series expansion
+❌ Newton’s method
+
+Q7. Which of the following are benefits of stochastic gradient descent?
+✅ Stochastic gradient descent can update many more times than gradient descent.
+✅ Stochastic gradient descent gets near the solution quickly.
+✅ With stochastic gradient descent, the update time does not scale with data size.
+❌ Stochastic gradient descent finds a more exact gradient than gradient descent.
+❌ Stochastic gradient descent finds the solution more accurately.
+
+Q8. Why is gradient descent computationally expensive for large data sets?
+✅ Calculating the gradient requires looking at every single data point.
+❌ Large data sets require deeper models, which have more parameters.
+❌ Large data sets do not permit computing the loss function, so a more expensive measure is used.
+❌ There are too many local minima for an algorithm to find.
+
+Q9. What are the two main benefits of early stopping?
+✅ It helps save computation cost.
+✅ It performs better in the real world.
+❌ It improves the training loss.
+❌ There is rigorous statistical theory on it.
+
+Q10. Why are optimization and validation at odds?
+✅ Optimization seeks to do as well as possible on a training set, while validation seeks to generalize to the real world.
+❌ Optimization seeks to do as well as possible on a training set, while validation seeks to do as well as possible on a validation set.
+❌ Optimization seeks to generalize to the real world, while validation seeks to do as well as possible on a validation set.
+❌ They are not at odds—they have the same goal.
+
