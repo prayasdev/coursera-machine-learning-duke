@@ -1,0 +1,20 @@
+
+---
+
+Model Selection – Graded Assignment
+
+Q1. Given the following image of data classifications, which of the following models would you choose?
+✅ Multilayer perceptron
+❌ Logistic regression
+
+Q2. Given the following image of data classifications, which of the following models would you choose?
+✅ Multilayer perceptron
+❌ Logistic regression
+
+Q3. Given different sets of training data, in which model would you expect more variance in the learned parameters?
+✅ Multilayer perceptron
+❌ Logistic regression
+
+
+---
+
