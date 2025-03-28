@@ -1,0 +1,32 @@
+
+---
+
+CNN Math Model – Graded Assignment
+
+Q1. What is the outcome of convolving the layer 2 filters with the layer 1 feature maps?
+❌ Layer 1 feature maps
+✅ Layer 2 feature maps
+❌ Layer 3 feature maps
+❌ Layer 3 filters
+
+Q2. In general terms, the basic steps to do learning are:
+Obtain a large set of labeled data
+[ What goes here? ]
+Determine parameters that minimize the sum over loss
+
+Which of the following best describes the missing step 2?
+✅ Determine the loss function, which computes loss between true label and model label
+❌ Check how well the network predicts the associated labels for new data
+❌ Ask a domain expert what they think the parameters should be
+❌ Pick the most representative examples of the labeled data, given the context of the data
+
+Q3. Why is learning hard? (Choose all that are correct.)
+✅ There can be many local minima, even for two parameters
+✅ The parameter space is large
+✅ The parameters are computationally expensive to compute
+❌ The math model is new
+
+
+---
+
+ 
