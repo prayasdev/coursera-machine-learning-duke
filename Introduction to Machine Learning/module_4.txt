@@ -1,1 +1,82 @@
+Lesson 1 - Practice Assignment
+1. Question 1
 
+What analogy highlights the purpose of word vectors?
+
+✅ Two places near each other on a map are likely to have similar characteristics.
+❌ The more letters two words have in common, the more similar they are.
+❌ English words are spelled with a different alphabet than words in some other languages.
+❌ The closer the geographic origin of two words, the more likely they have similar meaning.
+
+2. Question 2
+
+What dimension is a typical word vector?
+
+❌ One dimension
+❌ Two dimensions
+✅ More than two dimensions
+
+3. Question 3
+
+The result of convolving K filters with a text is N K-dimensional vectors. What is the result of a max pooling step?
+
+✅ A K-dimensional vector
+❌ K filters
+❌ An N-dimensional vector
+❌ N-2 K-dimensional vectors
+
+4. Question 4
+
+In the example shown, what would be done after the max pooling step?
+
+✅ Use existing methods to make a classification decision.
+❌ Use new methods to classify the document.
+❌ Pay humans to provide ground truth labels for the document.
+❌ Perform an image analysis of the text.
+
+
+
+Lesson 2
+
+1. Question 1
+Which model is used in the example?
+
+❌ Logistic regression
+✅ Multilayer perceptron
+❌Convolutional neural network
+
+2. Question 2
+
+What is the softmax function?
+
+✅ A generalization of the logistic function.
+❌ A function for the local maximum.
+❌ An alternative to gradient descent.
+❌ An application of the sigmoid function.
+
+3. Question 3
+
+When does the softmax function reduce to the logistic function?
+
+✅ When V = 2
+❌ When V = 0
+❌ When V = 1
+❌ When V = K
+
+4. Question 4
+
+What is the goal of both CBOW and Skip-Gram?
+
+✅ To learn the model parameters from a large corpus of text without human labeling.
+❌ To learn the model parameters from a large corpus of text with human labeling.
+❌ To judge the existing model parameters by penalizing overconfidence.
+❌ To compare human labeling skills with that of a machine.
+
+5. Question 5
+
+What function is being maximized to learn the parameters of the model?
+
+✅ The sum of the logs of probabilities for each word.
+❌ The negative log likelihood for the nth word.
+❌ The average of the surrounding word vectors.
+❌ The softmax function.
