@@ -1,0 +1,298 @@
+Module 1 Quiz (Graded Assignment) :- 
+
+
+1-In a paragraph, describe an example of an opportunity in your field or industry where ML might play a role in 
+solving the problem. First, write down the problem and how it is solved today.  
+
+ANS- Problem: Predictive Maintenance in Manufacturing 
+In the manufacturing industry, equipment failures can lead to significant downtime and financial losses. 
+Currently, predictive maintenance relies on scheduled inspections and reactive maintenance strategies, where 
+machines are serviced only after they show signs of failure. This approach can be inefficient and costly, as it often 
+results in unnecessary maintenance or unexpected breakdowns. 
+Opportunity for Machine Learning 
+Machine learning (ML) presents a transformative opportunity to enhance predictive maintenance by analyzing 
+historical data from machinery sensors, operational logs, and performance metrics. By employing ML algorithms, 
+manufacturers can predict equipment failures before they occur, allowing for timely interventions. This proactive 
+approach not only minimizes downtime and maintenance costs but also optimizes the overall efficiency of 
+production processes. Through continuous learning from new data, ML models can improve their accuracy over 
+time, adapting to changing conditions and ensuring that maintenance is performed only when truly necessary. 
+
+
+2-Now, describe why you think ML might help solve the problem you described in Question 1 in a better way. 
+
+ANS- Because Unlike scheduled maintenance, which is often based on fixed intervals, ML algorithms can analyze 
+real-time data from machinery, including vibrations, temperature fluctuations, and operational loads. Unlike 
+scheduled maintenance, which is often based on fixed intervals, ML algorithms can analyze real-time data from 
+machinery, including vibrations, temperature fluctuations, and operational loads. 
+The Data driven insights is ML models can process complex datasets and uncover insights that 
+human analysts might miss. By using techniques such as anomaly detection and time-series forecasting, ML can 
+identify subtle changes in equipment behavior that signal impending failures, this data driven approach not only 
+enhances but also helps  in prioritizing actions based on the severity of potential issues  . 
+The another advantage of ML is  learn continuously from new data.  This continuous 
+improvement cycle ensures that the predictive maintenance strategy evolves alongside the equipment and its 
+usage patterns, leading to more effective and efficient maintenance practices. Another better way solving is cost 
+efficiency . The cost efficiency is performance against the cost of developing , deploying and maintaining . The 
+ability to predict failures accurately resources can be allocated more effectively and minimizing the labor , 
+materials associated with unnecessary maintenance tasks. 
+In summary, Machine learning provides a data-driven 
+approach to predictive maintenance that enhances accuracy and efficiency compared to traditional methods. 
+This results in significant cost savings and improved management of manufacturing equipment. 
+
+
+3-Finally, for the problem you have selected, what might be an alternative approach to solving this problem 
+using a set of heuristics rather than a ML model? 
+
+ANS- An alternative approach to solving the predictive maintenance problem using heuristics involves 
+implementing a set of rules and guidelines based on historical data and operational experience rather on ML – 
+The Heuristic Approach for ML :– 
+1.Rule-besed maintenance scheduling :- Develop a heuristic that schedules maintenance based on 
+specific criteria such as machine usage hours, age, or previous failure history. For instance, if a machine 
+has been in operation for a predetermined number of hours or days, it could trigger a maintenance 
+check.  
+2.Condition Monitoring:- Utilize simple condition monitoring techniques, such as regular visual 
+inspections and manual checks of critical parameters like temperature and vibration. Operator can be 
+trained to abnormal behavior and allowing them to intervene before a failure occurs. 
+3.Thershold- based alerts:- When these thresholds are exceeded, alerts can be generated for 
+maintenance personnel to investigate the equipment. 
+4.Historical data analysis:- Analyze historical maintenance records to identify common failure patterns 
+and develop heuristics based on these insights.  For example, if certain components tend to fail after a 
+specific number of cycles or operational conditions, maintenance can be scheduled accordingly. 
+5.Experrt knowledge integration:- Incorporate insights from experienced technicians who understand 
+the machinery's nuances. Their input can help refine the heuristics, ensuring that the maintenance 
+strategy is grounded in practical knowledge. 
+Hence heuristic methods, organizations can create a proactive maintenance strategy that 
+minimizes downtime and extends the lifespan of equipment without the complexity and resource 
+demands of machine learning models. 
+
+
+
+Module 2 Quiz:- 
+
+1- For a problem of your choice, write a brief paragraph answering the key questions in CRISP-DM Step 
+1.1: Define the Problem for the problem you have selected. Refer to the lecture slides for the detailed 
+questions. 
+
+ANS- Definition for the for problem is Reducing customer churn subscription services. 
+The lecture slides for the detailed that  
+In Business objective, the primary objective is to reduce customer churn rates in a subscription-based 
+service, which is critical for maintaining revenue and ensuring long term growth. 
+Problem description for the CRISP-DM Step1.1 is customer churn refers to the percentage of subscribers 
+who cancel their subscriptions within a given period. High churn rates can lead to significant revenue 
+loss and increased costs associated with acquiring new customers.  such as offering discounts to 
+customers nearing cancellation, but lacks a systematic approach to identify at-risk customers 
+proactively. For the another requirements Data requirements , To address this problem, we will need 
+historical customer data, including subscription details, usage patterns, customer service interactions, 
+and demographic information. This data will help identify factors contributing to churn . 
+The success criteria is  , Success will be measured by a reduction in churn rates by at least 15% over the 
+next year, as well as improved customer satisfaction scores. Additionally, implementing targeted 
+interventions based on predictive insights should lead to higher retention rates and reduced acquisition 
+costs.  
+Hence , the problem in this structured manner, we can set clear goals and develop a focused 
+approach for our data mining efforts. 
+
+
+2- Now, for the problem you have chosen, write a brief paragraph addressing the questions in CRISP-DM 
+Step 1.2: Define Success. Refer to the lecture slides for the detailed questions. 
+
+ANS – For the Lecture slides defining success is Reducing customer churn in subscription services . 
+Business success criteria is the success of our initiative to reduce customer churn will be measured by a 
+decrease  in the churn rate by at least 15% over the next 12 months . This reduction is crucial for 
+enhancing revenue stability and ensuring sustainable growth. Data mining success criteria  success will 
+involve the development of an accurate predictive model that identifies at-risk customers with at least 
+80% accuracy and the model should also achieve a precision rate of 75%.  Stakeholder expectations , 
+including management and marketing teams, expect actionable insights that enable targeted retention 
+strategies . And Long – term impact , Ultimately, success will not only be reflected in reduced churn 
+rates but also in enhanced customer satisfaction and loyalty. The goal is to create a data-driven culture 
+within the organization that leading to sustained competitive advantage in the subscription market. 
+Then for the clearly defining these success criteria , align our efforts with 
+organizational goals and ensure that our data mining project delivers tangible business value. 
+
+
+3- Finally, for the problem you have chosen, in a brief paragraph address CRISP-DM Step 1.3: Identify 
+Factors by listing potential factors that may be relevant to the solution to your problem?
+
+ANS – The problem in a brief paragraph address CRISP-DM step 1.3 identify factors by listing potential 
+that may be relevant the solution that – 
+The identifying factors is Reducing customer churn in subscription services . The key factor include for 
+the solution is: 
+1. Usage patterns -  Frequency and duration of service usage can indicate customer engagement levels; 
+lower usage may signal a higher risk of churn. 
+2. Customer demographics - Age, location, and income level can provide insights into customer 
+preferences and behaviors, helping to tailor retention strategies. 
+3. Subscription plan type - Different plans (e.g., basic vs. premium) may have varying churn rates, with 
+customers on lower-tier plans potentially being more likely to cancel. 
+4. Customer service interactions- The frequency and nature of customer support requests can reveal 
+dissatisfaction; unresolved issues may lead to increased churn risk. 
+5. Payment history - Late payments or failed transactions could indicate financial distress or 
+disengagement, prompting potential cancellations. 
+6. Promotional offers - The impact of discounts or promotional campaigns on customer retention should 
+be analyzed, as these can influence churn decisions. 
+7. Competitor activity - Awareness of competitor offerings and pricing changes can affect customer 
+loyalty and influence their decision to stay or leave. 
+For the above solution conclude that develop a comprehensive understanding of the 
+drivers behind customer churn, allowing for more targeted and effective predictive modeling and 
+retention strategies. 
+
+
+
+Module 3 Quiz :- 
+
+1- Suppose we are building an app for home gardeners which uses sensor data and a supervised machine 
+learning model to detect when each plant in a garden should be watered to optimize plant health.  The 
+app should be intelligent enough to only alert the user when plants are in need of water and no rainfall 
+is expected in the next 24 hours.  In a brief paragraph, answer the following questions: 
+1. What data would we likely need in order to build our supervised ML model?   
+2. Describe a strategy for how we might collect this data (both input data and target labels)? 
+3. What are possible reasons we might encounter missing data? 
+4. What might be a reasonable strategy to deal with any missing data? 
+5. What might a reasonable list of features for our model be (either directly from our raw data or 
+engineered) ? 
+
+ANS- Data requirements for a plant watering App ,  
+To build a supervised machine learning model for detecting when plants need watering, we 
+would need to collect several types of data: 
+The Required data is , Soil moisture levels is continuous data from soil moisture sensors indicating the water 
+content in the soil, Weather data is information on temperature , humidity , sunlight exposure and 
+precipitation forecasts to assess environmental conditions , Plant species information is the data on the 
+specific types of plants in the garden, as different species have varying water needs ,Historical watering is 
+the logs of  when each plant was last watered and the amount of water applied, Growth stage is information 
+on the growth stage of each plant , as water requirements can change over time. 
+Data collection strategy – To collect this data , deploy soil moisture sensors throughout the garden that 
+continuously monitor moisture levels and send real-time data to the app. Weather data can be sourced from 
+local meteorological services or APIs that provide forecasts. We  could encourage them to update growth 
+stages as plants develop. 
+Reasons for Missing Data- There some of the missing data might arise form several sources are, Sensor 
+malfunctions or failures leading to gaps in soil moisture readings, Users forgetting to log watering events or 
+updates about plant species ,Incomplete weather data due to connectivity issues or API limitations.  
+Strategy to Handle Missing Data –  
+To address missing data, we could implement several strategies: 
+1 – Imputation Techniques - Use methods such as mean imputation for numerical features (e.g., filling in 
+missing soil moisture values with the average from nearby sensors) or mode imputation for categorical 
+features. For e.g. , plant species . 
+2 – Data Interpolation - For time-series data like soil moisture, interpolation can estimate missing values 
+based on surrounding data points. 
+3 – Flagging and Exclusion - Identify instances of missing data and flag them for exclusion from model 
+training if they exceed a certain threshold or cannot be reliably imputed. 
+Feature List for the Model – 
+1 – Current soil moisture level -Directly from sensor readings. 
+2 – Average soil moisture over last 24 hours -  Engineered feature from historical sensor data. 
+3 – Temperature -  Current temperature readings from weather data. 
+4 – Humidity - Current humidity levels from weather data. 
+5 – Sunlight exposure - Hours of sunlight received by the plants. 
+6 – Rainfall prediction -  Binary feature indicating whether rain is expected in the next 24 hours. 
+7 – Pant species type - Categorical feature representing different water needs for various species. 
+8 – Growth stage - Categorical feature indicating whether a plant is a seedling, mature 
+By collecting this comprehensive dataset and addressing potential challenges with missing 
+data, we can build an effective supervised machine learning model to optimize watering schedules for home 
+gardeners. 
+
+
+
+Module 4 Quiz :- 
+
+1- Select a problem you would like to solve with machine learning. Then, answer the following questions in 
+a paragraph or two on how you might design a ML system to solve the problem: 
+1) What problem does your ML system solve / what does it do? 
+2) Should it be a cloud or an edge system? Why? 
+3) Should it use offline or online learning for model training? Why?  
+4) Should it generate predictions in batch or online? Why? 
+
+ANS – The might design a ML system to solve the problem are – 
+The selection is Smart Waste Management System  :- 
+Problem Description  are , the machine learning system I would like to design is a smart waste 
+management system aimed at optimizing waste collection routes and schedules for municipalities. The 
+system would analyze data from various sources ,  including sensor data from waste bins , historical 
+collection data, and real-time traffic conditions. The system can reduce operational cost , minimize 
+environmental impact and improve overall efficiency in waste management .  
+Cloud vs Edge System :-  
+This system should primarily operate as a cloud-based solution. The cloud infrastructure allows for the 
+aggregation of large datasets from multiple sources, including IoT sensors deployed across various locations. 
+It can leverage powerful computational resources for data processing and model training, enabling more 
+complex algorithms to be utilized. For the additionally , a cloud based system facilitates easier updates and 
+maintenance of the machine learning models as new data becomes available. 
+Offline vs Online learning :- 
+The model should utilize offline learning for training, as it can be built on historical data collected over time 
+to create an initial predictive model. Offline learning is suitable here because it allows for thorough training 
+on diverse datasets, ensuring that the model captures various patterns in waste generation and collection 
+needs. However, once deployed, the system can incorporate online learning techniques to adapt to new 
+patterns in real-time as more data becomes available. 
+Batch vs Online Predictions :- 
+Generating prediction , the system should use online predictions . This approach is essential because it 
+allows the system to provide real-time insights into bin fill levels and optimize collection routes dynamically 
+based on current conditions. By continuously analyzing data the system can make timely adjustments to 
+collection schedules and routes, ensuring that waste is collected efficiently and reducing overflow incidents. 
+In the above summary conclude that , Smart Waste Management System would leverage 
+cloud computing for data aggregation and model training while employing offline learning for initial model 
+development and online predictions for real-time operational efficiency. 
+
+
+
+Module 5 Quiz :-  
+
+1 - Think about a production model that you have interacted with to perform some task or receive a 
+recommendation (e.g. Netflix's recommendation engine). What would the consequences be when the 
+performance of the model degrades and it begins to generate poor outputs? 
+
+ANS – When a production model’s performance degrades and generation poor outputs , several consequences 
+can arise depending on the use case . the Decreased user satisfaction a model Like Netflix’s recommendation 
+engine starts suggesting irrelevant content, users may become frustrated and disengaged. For instance, in the 
+context of a credit card fraud detection system, a decline in model accuracy could lead to an increase in 
+fraudulent transactions slipping through undetected, resulting in financial losses for both consumers and 
+financial institutions. Loss of trust the system if it consistently provides incorrect, biased, or unhelpful 
+recommendations. For example, an e-commerce recommendation engine suggesting irrelevant products could 
+cause customers to stop relying on the platform’s suggestions. 
+In other applications, such as recommendation systems (e.g., Netflix or Amazon), degraded 
+model performance could result in irrelevant or unappealing recommendations for users. This could diminish 
+user engagement and satisfaction, ultimately leading to decreased usage of the platform and potential 
+subscription cancellations. Furthermore, if businesses rely on these models for strategic decision-making or 
+operational efficiency, poor outputs can lead to misguided strategies, wasted resources, and missed 
+opportunities. 
+Overall, the degradation of model performance can have cascading effects on user experience, 
+financial outcomes, and brand reputation, highlighting the critical need for ongoing monitoring and maintenance 
+of machine learning models in production environments. 
+
+
+2 - For the model you have selected, what might be a source of data drift or concept drift which may affect the 
+model? 
+
+ANS -  In the context of the Smart Waste Management System, a significant source of data drift or concept drift 
+could arise from changes in waste generation patterns due to evolving consumer behaviors and societal trends 
+post-COVID-19. For instance, as more people shifted to remote work and online shopping during the pandemic, 
+the types and volumes of waste generated in residential areas may have changed dramatically. This could lead to 
+a situation where the historical data used to train the model no longer accurately reflects current waste disposal 
+behaviors .As businesses adapt to new operational models—such as increased home deliveries and changes in 
+packaging materials—the input data for the machine learning model (e.g., bin fill levels, collection frequency, 
+and types of waste) might exhibit different distributions than those seen during the model's training phase. This 
+shift can result in decreased accuracy in predicting when bins need to be collected, leading to either over
+collection (wasting resources) or under-collection (overflowing bins).To mitigate these issues, it is essential to 
+implement ongoing monitoring systems that can detect such drifts in real time. This could involve using 
+statistical tests to compare current data distributions with historical ones and retraining the model periodically 
+with updated data that reflects the new waste generation patterns. By doing so, the system can maintain its 
+effectiveness and adapt to changing conditions in waste management. 
+
+
+3 - For the model you have selected, what time order of magnitude - minutes, hours, weeks or months - do you 
+think the model is likely retrained? Why? 
+
+ANS -  This frequency strikes a balance between maintaining the model's relevance and ensuring that it can 
+adapt to changing waste generation patterns without requiring excessive computational resources or data 
+collection efforts. 
+Reasons for Weekly Retraining – 
+1 . Dynamic Environment - Waste generation can be influenced by various factors, including seasonal changes, 
+local events, and shifts in consumer behavior (e.g., increased online shopping). A weekly retraining schedule 
+allows the model to quickly incorporate these changes and maintain accuracy in predicting bin fill levels and 
+optimizing collection routes 
+2 . Data Availability - Weekly data collection from sensors and other sources (such as traffic conditions and 
+weather forecasts) provides a sufficient volume of new data to inform the model. 
+3 . Operational Efficiency - While more frequent retraining (e.g., daily) could provide even more up-to-date 
+predictions, it may also introduce unnecessary complexity and computational overhead. A weekly schedule 
+allows for timely updates while still being manageable from an operational standpoint. 
+4 . Monitoring and Evaluation -  Weekly retraining enables the team to monitor model performance closely and 
+evaluate its effectiveness in real-world conditions. This regular cadence allows for adjustments to be made 
+promptly if any issues arise, such as significant data drift or changes in waste patterns. 
+For the summary , a weekly retraining schedule is appropriate for the Smart Waste 
+Management System, allowing it to remain responsive to changing conditions while balancing operational 
+efficiency and resource management. 
+
+
+Peer Graded Assignment Video: https://youtu.be/8sy9LIQm_gQ
