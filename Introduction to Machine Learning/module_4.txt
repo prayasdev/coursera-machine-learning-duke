@@ -80,3 +80,41 @@ What function is being maximized to learn the parameters of the model?
 ❌ The negative log likelihood for the nth word.
 ❌ The average of the surrounding word vectors.
 ❌ The softmax function.
+
+
+Lesson 3
+1. Question 1
+
+What two entities are concatenated and sent into a neural network?
+
+✅ The vector associated with the previous word and the hidden vector of the previous network
+❌ The vector associated with the previous word and the hidden vector of the current network.
+❌ The vector associated with the previous word and a bias term.
+❌ The vector associated with the previous word and the weights of the previous network.
+
+2. Question 2
+
+How many control neural networks are used in LSTM?
+
+❌ 1
+❌ 2
+✅ 3
+❌ 4
+
+3. Question 3
+
+Which of the following best describes what the f_n neural network does?
+
+✅ Controls the degree of “forgetting” of the old memory cell.
+❌ Controls the proportion of contribution of the new memory cell estimate.
+❌ Controls the contribution of the hyperbolic tangent of the new memory cell.
+❌ Updates the memory cell.
+
+4. Question 4
+
+In the example of figure captioning, how are the parameters of the LSTM model initialized?
+
+✅ From the features at the top of a CNN that analyzed the image.
+❌ From the vectorization of the image’s pixels.
+❌ From an embedding of a human-provided word.
+❌ From an average of the word vectors in a caption codebook.
