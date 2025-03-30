@@ -25,9 +25,6 @@ Q4. What is the result of convolving a filter with a two-dimensional image?
 
 
 
-
-Coursera
-Introduction to Machine Learning
 Module 3 - Lesson 2 - Graded Assignment
 
 1. What is meant by “volume” of feature maps?
@@ -67,3 +64,66 @@ Module 3 - Lesson 2 - Graded Assignment
 
 
 
+Week 3 Comprehensive - Graded Assignment
+
+    Which of the following indicates whether a doctor or machine is doing well at finding positive examples in a dataset?
+    ✅ Sensitivity
+    ⬜ Specificity
+    ⬜ Positive Predictive Value
+    ⬜ Likelihood Ratio
+
+    Which of the following is used to distinguish the false positive rate from the false negative rate?
+    ✅ Specificity
+    ⬜ Negative Predictive Value
+    ⬜ False Negative
+    ⬜ Sensitivity
+
+    Which of the following is the best conceptual definition of one-dimensional convolution?
+    ✅ “Sliding” of two signals, where a matched feature gives a high value of convolution.
+    ⬜ “Inverting” of a shape, where the inversion matches a feature.
+    ⬜ “Intertwining” of two signals, where one wraps around the other to form a feature.
+    ⬜ “Distortion” of one signal, according to the feature shape.
+
+    Which of the following can a user choose when designing a convolutional layer? (Choose all that are correct.)
+    ✅ Filter size
+    ✅ Filter stride
+    ✅ Filter number
+    ⬜ Filter weights
+    ⬜ Filter depth
+
+    What is a fully connected readout?
+    ✅ A layer with a single neuron for each output class.
+    ⬜ The vectorization of a pooling layer.
+    ⬜ A layer with ten classifications.
+    ⬜ A layer with connections to all feature maps.
+
+    Why are nonlinear activation functions preferable?
+    ✅ Nonlinear activation functions increase the functional capacity of the neural network by allowing the representation of nonlinear relationships between features in input.
+    ⬜ Nonlinear activation functions are NOT preferable to linear ones, as they lose information in systems with high variance.
+    ⬜ Nonlinear activation functions are preferable because they have been used historically.
+    ⬜ Nonlinear activation functions are preferable because they are used in generalized linear models in statistics.
+
+    Which of the following are benefits of pooling? (Choose all that are correct.)
+    ✅ Reduces computational complexity.
+    ✅ Combats overfitting.
+    ✅ Encourages translational invariance.
+    ⬜ Decreases bias.
+    ⬜ Vectorizes the data.
+
+    How are parameters that minimize the loss function found in practice?
+    ✅ Stochastic gradient descent
+    ⬜ Gradient descent
+    ⬜ Fractal geometry
+    ⬜ Simplex algorithm
+
+    Which of the following is an advantage of hierarchical representation of image features?
+    ✅ Better leveraging all training data.
+    ⬜ Decreasing variance in the model.
+    ⬜ Decreasing the computational complexity.
+    ⬜ Eliminating bias.
+
+    Why does transfer learning work?
+    ✅ Top-level features are specialized for a particular task, while low-level features are universal to all images.
+    ⬜ All layers of filters can be learned by studying the mammalian receptive fields.
+    ⬜ Low-level features are specialized for a particular task, while top-level features are universal to all images.
+    ⬜ All images are composed of pixels with three color channels.
