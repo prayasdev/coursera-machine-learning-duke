@@ -1,0 +1,36 @@
+Module 5:
+* module 5 have no Practice Assignment
+
+Module 6:
+Reinforcement Learning Quiz (Practice Assignment):
+1. Why is there randomness in which state the agent will traverse to when it takes a particular action from its current state? In other words, why is it necessary to use P(s,a,a') to represent the probability of transiting from state s to new state s' when taking action a?
+Ans: The state s typically doesn’t characterize all aspects of how an agent interacts with its environment. What is missing in the description of the state makes it impossible to know with certainty what the agent will do when taking action what will happen.
+
+2. What is a policy?
+Ans: A policy tells the agent/system which action is optimal to take next, when the agent is in a particular state.
+
+3. In our update rule for the Q-function we use the equation. What role does the parameter α play?
+Ans: It defines the learning rate, which controls how quickly the old Q function is updated, based on the latest observed reward r(s,a,s').
+
+Q Learning Quiz (Practice Assignment):
+1. What is the difference between a myopic policy and a non-myopic policy?
+Ans: A myopic policy seeks to perform an action that achieves the immediate best reward, while a non-myopic policy seeks actions that account for the expected future value as well.
+
+2. The non-myopic reward is expressed as. What role does the parameter γ play?
+Ans: All the above
+
+3. Maximization increases the rate at which the algorithm learns the optimal policy.
+Ans: This yields an approximation to the expected value of state if the agent employs an optimal policy from the point of state forward.
+
+4. After the Q-function Q(s,a) is learned based on a sequence of state-action-reward experiences, how is it used to manifest a policy?
+Ans: The policy is defined by selecting at each state s the action a that maximizes Q(s,a).
+
+5. Why is there an issue of exploration vs. exploitation?
+Ans: The policy is learned based on a series of experiences of the agent within the environment of interest. If the policy is only exploited after it is learned, there is no opportunity to explore new actions in a given environment, and hence no opportunity to refine the policy and do better. But if too much exploration is done, it is possible the policy will not improve, and bad outcomes will occur by not taking optimal actions.
+
+Deep Q Learning Quiz (Practice Assignment):
+1. In a deep Q network (DQN), how is the Q-function modeled?
+Ans: The Q function is modeled by a deep neural network. The current state is input to the network, and the number of network outputs is equal to the number of actions. The value of each of the outputs corresponds to the value of the corresponding action.
+
+2. Why does deep Q learning resemble supervised neural-network learning?
+Ans: The agent observes the immediate next reward, and it uses the old neural network parameters to model the expected future reward. These are both known at a given point of learning. The deep neural network is updated by seeking to fit the network parameters such that the model Q function equals the sum of the observed immediate reward and discounted approximate future reward.
