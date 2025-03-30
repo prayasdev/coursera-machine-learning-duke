@@ -118,3 +118,89 @@ In the example of figure captioning, how are the parameters of the LSTM model in
 ❌ From the vectorization of the image’s pixels.
 ❌ From an embedding of a human-provided word.
 ❌ From an average of the word vectors in a caption codebook.
+
+
+Week 4 Comprehensive
+
+Graded Assignment
+
+1. Question 1
+
+What is meant by “word vector”?
+
+✅ A vector of numbers associated with a word.
+❌ A vector consisting of all words in a vocabulary.
+❌ Assigning a corresponding number to each word.
+❌ The latitude and longitude of the place a word originated.
+2. Question 2
+
+Which word is a synonym for “word vector”?
+
+✅ Embedding
+❌ Array
+❌ Norm
+❌ Stack
+3. Question 3
+
+What is the term for a set of vectors, with one vector for each word in the vocabulary?
+
+✅ Codebook
+❌ Embedding
+❌ Array
+❌ Space
+4. Question 4
+
+What is natural language processing?
+
+✅ Taking natural text and making inferences and predictions.
+❌ Making natural text conform to formal language standards.
+❌ Translating natural text characters to Unicode representations.
+❌ Translating human-readable code to machine-readable instructions.
+5. Question 5
+
+What is the goal of learning word vectors?
+
+✅ Given a word, predict which words are in its vicinity.
+❌ Labelling a text corpus, so a human doesn’t have to do it.
+❌ Determine the vocabulary in the codebook.
+❌ Find the hidden or latent features in a text.
+6. Question 6
+
+What function is the generalization of the logistic function to multiple dimensions?
+
+✅ Softmax function
+❌ Hyperbolic tangent function
+❌ Squash function
+❌ Exponential log likelihood
+7. Question 7
+
+What is the continuous bag of words (CBOW) approach?
+
+✅ Vectors for the neighborhood of words are averaged and used to predict word n.
+❌ Word n is used to predict the words in the neighborhood of word n.
+❌ The code for word n is fed through a CNN and categorized with a softmax.
+❌ Word n is learned from a large corpus of words, which a human has labeled.
+8. Question 8
+
+What is the Skip-Gram approach?
+
+✅ Word n is used to predict the words in the neighborhood of word n.
+❌ Vectors for the neighborhood of words are averaged and used to predict word n.
+❌ The code for word n is fed through a CNN and categorized with a softmax.
+❌ Word n is learned from a large corpus of words, which a human has labeled.
+9. Question 9
+
+What is the goal of the recurrent neural network?
+
+✅ Synthesize a sequence of words.
+❌ Predict words more efficiently than Skip-Gram.
+❌ Classify an unlabeled image.
+❌ Learn a series of images that form a video.
+10. Question 10
+
+Which model is the state-of-the-art for text synthesis?
+
+✅ Long short-term memory
+❌ CBOW
+❌ CNN
+❌ Multilayer perceptron
