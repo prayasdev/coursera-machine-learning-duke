@@ -7,11 +7,11 @@ Q1. Why is machine learning exciting? (Choose all that are correct.)
 ✅ It can automate tasks at human-level performance.
 ✅ It is involved in many business applications.
 ❌ It is a brand-new field within the past decade.
-✅ It makes robotics possible.
+❌ It makes robotics possible.
 
 Q2. Which of the following are examples of applications given in the first video? (Choose all that are correct.)
-✅ Text translation
-✅ Identifying email spam
+❌ Text translation
+❌ Identifying email spam
 ✅ Image recognition
 ✅ Playing Go
 ❌ Military planning
