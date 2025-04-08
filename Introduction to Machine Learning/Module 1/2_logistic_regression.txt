@@ -13,5 +13,5 @@ Q2. What does the sigmoid function do?
 ❌ It maps a value to a number between negative infinity and infinity.
 
 Q3. Can logistic regression draw an appropriate decision boundary between the classes of this data?
-✅ Yes
-❌ No
+❌ Yes
+✅ No
